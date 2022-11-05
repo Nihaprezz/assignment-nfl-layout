@@ -1,0 +1,57 @@
+h1 {
+  letter-spacing: .20rem;
+  text-align: center;
+}
+
+#update-team-stat-form {
+  text-align: center;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+#update-team-stat-form label {
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+#nfl-layout-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.nfl-team-card {
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px black;
+  width: 30rem;
+}
+
+.nfl-team-card h2 {
+  margin-top: 0;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 1rem;
+}
+
+.nfl-team-location {
+  padding-left: 1rem;
+}
+
+.nfl-team-img-container {
+  width: 15rem; 
+  height: 15rem;
+  margin: auto;
+}
+
+.nfl-team-img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.nfl-team-stats {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
