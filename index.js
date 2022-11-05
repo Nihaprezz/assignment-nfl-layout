@@ -141,7 +141,7 @@ const nflTeams = [
   },
   {
     city: "Washington",
-    name: "Football Team",
+    name: "Commanders",
     cPrim: "#773141",
     cSecn: "#FFB612",
     wins: 0,
