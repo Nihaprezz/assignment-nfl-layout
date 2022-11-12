@@ -31,6 +31,40 @@
     </form>
     <section id="nfl-layout-container">
     </section>
+    <div class="add-game-form-container">
+        <h1>ADD GAME</h1>
+        <form id="add-game-form">
+            <label for="game-date">
+                Date:
+            </label>
+            <input type="date" id="game-date">
+
+            <label for="home-team-select">
+                Home Team:
+            </label>
+            <select id="home-team-select"></select>
+
+            <label for="away-team">
+                Away Team:
+            </label>
+            <select id="away-team"></select>
+
+            <label for="home-points">
+                Home Points:
+            </label>
+            <input type="number" id="home-points">
+
+            <label for="away-points">
+                Away Points:
+            </label>
+            <input type="number" id="away-points">
+            <button id="add-game">
+                Add
+            </button>
+        </form>
+        <section id="nfl-game-container">
+        </section>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
